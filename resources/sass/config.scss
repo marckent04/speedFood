@@ -1,0 +1,7 @@
+$mainColor1: #f37100;
+
+
+@mixin backImg($img) {
+    background: url($img);
+    background-size: cover;
+}

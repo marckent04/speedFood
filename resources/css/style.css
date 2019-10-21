@@ -1,0 +1,234 @@
+/* line 3, ../sass/style.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 7, ../sass/style.scss */
+section {
+  padding: 50px 0;
+  padding-bottom: 100px;
+}
+
+/* line 12, ../sass/style.scss */
+.color1 {
+  color: #f37100;
+}
+
+/* line 16, ../sass/style.scss */
+.navbar {
+  box-shadow: 0px 0px 2px gray;
+}
+
+/* line 21, ../sass/style.scss */
+#headerMain .right {
+  position: relative;
+  padding-left: 9%;
+  background: url("../images/core-img/photo_2019-10-18_01-59-20.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 28, ../sass/style.scss */
+#headerMain .right #headerInput {
+  padding-left: 10%;
+  width: 60%;
+  height: 12%;
+  border-radius: 20px;
+}
+/* line 34, ../sass/style.scss */
+#headerMain .right #headerInput::placeholder {
+  color: #f37100;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+/* line 41, ../sass/style.scss */
+#headerMain .right label[for=headerInput] {
+  position: relative;
+  left: 8%;
+}
+/* line 44, ../sass/style.scss */
+#headerMain .right label[for=headerInput] i {
+  color: #f37100;
+}
+/* line 50, ../sass/style.scss */
+#headerMain .left {
+  background: url("../images/core-img/photo_2019-10-18_01-59-26.jpg");
+  background-size: cover;
+  padding: 2% 4%;
+}
+/* line 55, ../sass/style.scss */
+#headerMain .left h1 {
+  line-height: 1.3em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 5.5em;
+}
+
+/* line 64, ../sass/style.scss */
+.wrapper {
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 68, ../sass/style.scss */
+.wrapper .myCard {
+  width: 96%;
+  border-radius: 10px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 40px;
+}
+/* line 80, ../sass/style.scss */
+.wrapper .myCard.withoutThumbnail .title {
+  margin-top: 0;
+}
+/* line 84, ../sass/style.scss */
+.wrapper .myCard.withoutThumbnail .more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 92, ../sass/style.scss */
+.wrapper .myCard .title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* line 97, ../sass/style.scss */
+.wrapper .myCard .img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/core-img/photo_2019-10-18_01-59-23.jpg");
+  background-size: cover;
+}
+/* line 108, ../sass/style.scss */
+.wrapper .myCard .more {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: white;
+  height: 40%;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 4%;
+}
+/* line 120, ../sass/style.scss */
+.wrapper .myCard .more .buyLine {
+  position: absolute;
+  bottom: 3%;
+  width: 92%;
+  left: 4%;
+}
+/* line 127, ../sass/style.scss */
+.wrapper .myCard .more .imgThumbnail {
+  width: 60px;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+/* line 133, ../sass/style.scss */
+.wrapper .myCard .more .addBtn {
+  height: 30px;
+  width: 30px;
+  color: #f37100;
+  border: 1px solid #f37100;
+  border-radius: 100%;
+  margin: 0px !important;
+  background: white !important;
+}
+/* line 143, ../sass/style.scss */
+.wrapper .myCard .more .addBtn:hover {
+  background: #f37100 !important;
+  color: white;
+}
+/* line 150, ../sass/style.scss */
+.wrapper .myCard .label {
+  position: absolute;
+  left: -5%;
+  top: 8%;
+  background: #f37100;
+  color: white;
+  display: inline;
+  box-shadow: 0px 0px 0px black;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* line 167, ../sass/style.scss */
+.sectionTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.1em;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 175, ../sass/style.scss */
+.sectionSubtitle {
+  text-transform: uppercase;
+}
+
+/* line 180, ../sass/style.scss */
+#menus, #entree {
+  background: #f7f6f4;
+}
+
+/* line 186, ../sass/style.scss */
+footer {
+  background: #5c5b57;
+  padding-bottom: 50px;
+}
+/* line 190, ../sass/style.scss */
+footer .newsletterForm {
+  position: relative;
+}
+/* line 194, ../sass/style.scss */
+footer .appBtn {
+  margin: 0px;
+  border-radius: 10px;
+  padding: 6px 0px;
+  width: 75%;
+}
+/* line 200, ../sass/style.scss */
+footer .socialBtns {
+  margin-top: 30px;
+}
+/* line 202, ../sass/style.scss */
+footer .socialBtns i {
+  font-size: 3em;
+}
+/* line 207, ../sass/style.scss */
+footer .prepend {
+  padding-left: 40px;
+  background: white;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  height: 55px;
+  width: 100px;
+}
+/* line 215, ../sass/style.scss */
+footer .prepend i {
+  font-size: 1.8em;
+}
+/* line 221, ../sass/style.scss */
+footer .prepend + input {
+  border: none;
+  height: 55px;
+  width: 45%;
+  padding-right: 60px;
+}
+/* line 228, ../sass/style.scss */
+footer .sendBtn {
+  background: #f37100;
+  position: relative;
+  right: 50px;
+  color: white;
+  border: none;
+  width: 15%;
+  border-radius: 70px;
+}
